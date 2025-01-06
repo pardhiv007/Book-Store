@@ -1,0 +1,110 @@
+.instance-item {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: #cbf1f5;
+    max-width: 100%;
+  }
+  .navigation-inner {
+    height: 100%;
+    width: 100%;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .book-store1 {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .logofinal-1-icon1 {
+    height: 77px;
+    width: 121px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -21px;
+    left: -104px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .branding,
+  .branding-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .branding {
+    flex-direction: row;
+    position: relative;
+  }
+  .branding-wrapper {
+    flex-direction: column;
+    padding: 8px 0 0;
+  }
+  .button-labels {
+    flex: 0.7887;
+    z-index: 1;
+  }
+  .button-labels1,
+  .button-labels2 {
+    flex: 1;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .button-labels2 {
+    flex: 0.9014;
+  }
+  .action-buttons,
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .action-buttons {
+    width: 500px;
+    justify-content: flex-start;
+    gap: 22px;
+  }
+  .navigation {
+    align-self: stretch;
+    justify-content: space-between;
+    padding: 22px 26px 23px 117px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    gap: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-family: Inter;
+  }
+  @media screen and (max-width: 825px) {
+    .navigation {
+      padding-left: 58px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .action-buttons {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .navigation {
+      padding-left: 20px;
+      box-sizing: border-box;
+    }
+  }
+  

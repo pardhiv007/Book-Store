@@ -1,0 +1,115 @@
+.homepage-1-icon {
+    height: 640px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .any-book,
+  .you-can-buy,
+  .you-have-in,
+  .your-mind {
+    margin: 0;
+  }
+  .you-can-buy-container {
+    margin: 0 !important;
+    width: 325px;
+    position: absolute;
+    top: 39px;
+    left: 13px;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    z-index: 1;
+  }
+  .books,
+  .hero {
+    position: relative;
+    max-width: 100%;
+  }
+  .hero {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-family: var(--font-inter);
+  }
+  .books {
+    margin: 0;
+    width: 372px;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .categories,
+  .content,
+  .home-design {
+    display: flex;
+    align-items: flex-start;
+  }
+  .categories {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .content,
+  .home-design {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .content {
+    align-self: stretch;
+    padding: 0 0 64px;
+    box-sizing: border-box;
+    gap: 40px;
+    max-width: 100%;
+    text-align: center;
+    font-size: 55px;
+    color: #468585;
+    font-family: var(--font-inter);
+  }
+  .home-design {
+    width: 100%;
+    position: relative;
+    background-color: #e3fdfd;
+    overflow: hidden;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 825px) {
+    .you-can-buy-container {
+      font-size: 32px;
+    }
+    .books {
+      font-size: 44px;
+    }
+    .content {
+      gap: var(--gap-xl);
+      padding-bottom: 42px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .you-can-buy-container {
+      font-size: var(--font-size-5xl);
+    }
+    .books {
+      font-size: 33px;
+    }
+    .content {
+      padding-bottom: 27px;
+      box-sizing: border-box;
+    }
+  }
+  

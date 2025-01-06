@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height: 100vh;
+}
+.msg{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 10%;
+    border-radius: 5%;
+}

@@ -1,0 +1,75 @@
+.logofinal-2-icon {
+    height: 58px;
+    width: 145px;
+    position: relative;
+    object-fit: contain;
+  }
+  .for-any-queries {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .base-component,
+  .contact,
+  .footer {
+    display: flex;
+    align-items: flex-start;
+  }
+  .contact {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 11px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .base-component,
+  .footer {
+    overflow: hidden;
+  }
+  .footer {
+    align-self: stretch;
+    background-color: #a6e3e9;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 14px 29px;
+    box-sizing: border-box;
+    max-width: 100%;
+    gap: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-family: Inter;
+    margin-top: auto;
+  }
+  .base-component {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-color: #e3fdfd;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 825px) {
+    .for-any-queries {
+      font-size: 24px;
+    }
+    .footer {
+      flex-wrap: wrap;
+    }
+    .base-component {
+      gap: 405px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .for-any-queries {
+      font-size: 18px;
+    }
+    .base-component {
+      gap: 202px;
+    }
+  }
+  
